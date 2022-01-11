@@ -1,0 +1,85 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	max-width: 800px;
+	margin: auto;
+	background-color: rgba(245,245,245,1);
+	/*background-color: azure;*/
+	color: rgba(96,96,96,1);
+}
+h2{
+	margin: 5px auto 15px auto;
+	color: rgba(96,96,96,0.9);
+}
+.h2-box{
+	display: flex;
+}
+.h2-box:hover{
+	cursor: pointer;
+}
+ol{
+	padding: 0;
+	margin-top: 0px;
+}
+li{
+	list-style-type: none;
+}
+.design-span{
+	display: flex;
+	justify-content:flex-end;
+}
+.todo-time{
+	font-size: 0.7pc;
+	font-style: oblique;
+	/*background-color: rgba(0,0,0,0.1);
+	color: #ffb347;*/
+}
+.todo-text{
+	margin: 2px;
+	margin-bottom: 7px;
+}
+.todo-text:hover, .todo-text:focus{
+	cursor: pointer;
+}
+.listitem{
+	margin: auto;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 15px;
+	border-bottom: 1px solid rgba(96,96,96,0.5);
+	/*box-shadow: 0.000001px 1px 3px;*/
+}
+.listitem:hover{
+	background-color: rgba(0,0,0,0.1);
+}
+[class|="list"]{
+	
+}
+.the-form{
+	display: flex;
+	justify-content:center;
+	width: auto;
+	height: 30px;
+}
+.input-box{
+	border: 0;
+	border-bottom: 1px solid rgba(96,96,96,0.5);
+	background: transparent;
+}
+.btn{
+	border: 0;
+	border-bottom: 1px solid rgba(96,96,96,0.5);
+	background-color: rgba(0,0,0,0.1);
+}
+.btn:focus, .btn:hover, .input-box:focus, .input-box:hover{
+	outline: none;
+}
+
+.btn:focus, .btn:hover{
+	cursor: pointer;
+	background-color: rgba(255,255,245,0.1);
+}
+/*.btn:focus{
+	background-color: rgba(245,245,245,1);
+}*/
